@@ -2,7 +2,6 @@ import sys
 import requests 
 import json
 from bs4 import BeautifulSoup
-from pyfiglet import Figlet 
 import colorama
 import time
 import asyncio
@@ -27,6 +26,7 @@ gg = colorama.Fore.LIGHTCYAN_EX
 
 
 def logo():
+    os.system('clear')
     print(f"""
 {rd}██╗   ██╗███████╗██████╗ ███████╗██╗   ██╗
 {rd}██║   ██║██╔════╝╚════██╗██╔════╝╚██╗ ██╔╝
